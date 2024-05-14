@@ -1,0 +1,4 @@
+gunicorn 
+Flask
+pyppeteere
+requests_html
