@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED True
 ENV FLASK_ENV development
 
 # Copy local code to the container image.
-ENV APP_HOME /app
+ENV APP_HOME /app 
 WORKDIR $APP_HOME
 COPY . ./
 
